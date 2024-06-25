@@ -9,10 +9,12 @@ package bls
 #cgo linux,amd64 LDFLAGS:-L${SRCDIR}/lib/linux/amd64
 #cgo linux,arm64 LDFLAGS:-L${SRCDIR}/lib/linux/arm64
 #cgo linux,mipsle LDFLAGS:-L${SRCDIR}/lib/linux/mipsel
+#cgo linux,mips LDFLAGS:-L${SRCDIR}/lib/linux/mips
 #cgo linux,arm LDFLAGS:-L${SRCDIR}/lib/linux/arm
 #cgo linux,s390x LDFLAGS:-L${SRCDIR}/lib/linux/s390x
 #cgo darwin,amd64 LDFLAGS:-L${SRCDIR}/lib/darwin/amd64
 #cgo darwin,arm64 LDFLAGS:-L${SRCDIR}/lib/darwin/arm64
+#cgo darwin,mips LDFLAGS:-L${SRCDIR}/lib/darwin/mips
 #cgo windows,amd64 LDFLAGS:-L${SRCDIR}/lib/windows/amd64
 #cgo openbsd,amd64 LDFLAGS:-L${SRCDIR}/lib/openbsd/amd64
 #cgo freebsd,amd64 LDFLAGS:-L${SRCDIR}/lib/freebsd/amd64
